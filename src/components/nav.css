@@ -1,0 +1,38 @@
+
+.container-fluid{
+    height: 100px;
+    display: flex;
+    color: white;
+    max-width: 1200px;
+    min-width: auto;
+    justify-content: space-between;
+}
+.first{
+    padding: 10px 10px 20px 20px;
+    width: 160px;
+    
+}
+.head-text{
+    font-weight: 100;
+}
+.middle{
+    padding: 70px 0 10px 0 ;
+    display: flex;
+    width: 400px;
+    min-width: auto;
+    justify-content: space-between;
+    /* align-items: end; */
+}
+.items{
+    font-weight: 40;
+    font-size: small;
+}
+.icons-tool{
+    display: flex;
+    width: 80px;
+    min-width: auto;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+
+
