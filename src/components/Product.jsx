@@ -1,4 +1,4 @@
-import React from "react"
+import Image from "next/image"
 
 
 function Product({posts}) {
@@ -8,7 +8,7 @@ function Product({posts}) {
        
         {posts.map((e,i)=>i<8 && <div className="col" style={{height:'350px'}} key={i}>
             <div className="card h-100">
-                <img src={"/images.jpeg"} className="card-img-top" alt="..." height='200px'/>
+                <Image src={"/images.jpeg"} className="card-img-top" alt="..." height='200' width='200'/>
                 <div style={{backgroundColor:'black',height:'280px'}}>
                     <h6 className="card-title" >{e.Name}</h6>
                     <span style={{fontSize:'10px'}}>{e.Reviews.length<300?e.Reviews: null}</span>
